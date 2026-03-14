@@ -193,5 +193,7 @@ Este projeto tem como objetivo aplicar na prática conceitos aprendidos em aula,
 
 Nome: Lucas Ribeiro Soares
 RA: 105437
+Link YouTube: https://youtu.be/S5W6aM84xV8
+Link GitHub: https://github.com/lucaasoares/catalogo-mobile-react-native
 Curso: Analise e Desenvolvimento de Sistemas
 Estudante de Tecnologia / Desenvolvimento de Software
