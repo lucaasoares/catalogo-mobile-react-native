@@ -1,31 +1,31 @@
-# 🛍️ Mobile E-Commerce App (React Native)
+# 🛍️ Mobile E-Commerce App (React Native) #
 
-Aplicativo mobile de **e-commerce** desenvolvido com **React Native (Expo)** que consome uma **API REST de produtos**, permitindo visualizar itens, ver detalhes e adicioná-los ao carrinho.
+Aplicativo mobile de e-commerce desenvolvido com React Native (Expo) que consome uma API REST de produtos, permitindo visualizar itens, ver detalhes e adicioná-los ao carrinho.
 
-O projeto foi desenvolvido com foco em praticar conceitos de **desenvolvimento mobile**, **consumo de APIs** e **gerenciamento de estado com Redux Toolkit**.
+O projeto foi desenvolvido com foco em praticar conceitos de desenvolvimento mobile, consumo de APIs e gerenciamento de estado com Redux Toolkit.
 
 ---
 
-# 📱 Funcionalidades
+# 📱 Funcionalidades #
 
 O aplicativo possui as seguintes telas e funcionalidades:
 
-### 🔐 Tela de Login
+### 🔐 Tela de Login ###
 
 * Validação básica de dados
 * Armazenamento temporário das informações do usuário
 * Redirecionamento para a área principal do aplicativo após login
 
-### 🛒 Listagem de Produtos
+### 🛒 Listagem de Produtos ###
 
 * Produtos exibidos em abas:
 
   * Masculino
   * Feminino
-* Consumo de dados através de **API REST**
+* Consumo de dados através de API REST
 * Navegação para tela de detalhes
 
-### 📦 Detalhes do Produto
+### 📦 Detalhes do Produto ###
 
 * Exibe:
 
@@ -34,15 +34,15 @@ O aplicativo possui as seguintes telas e funcionalidades:
   * Descrição
   * Preço
   * Percentual de desconto
-* Botão para **adicionar produto ao carrinho**
+* Botão para adicionar produto ao carrinho
 
-### 🛍️ Carrinho
+### 🛍️ Carrinho ###
 
 * Lista de produtos adicionados
 * Exibição do valor total da compra
-* Gerenciamento de estado com **Redux Toolkit**
+* Gerenciamento de estado com Redux Toolkit
 
-### 🚪 Logout
+### 🚪 Logout ###
 
 * Limpeza dos dados armazenados
 * Limpeza do carrinho
@@ -50,28 +50,33 @@ O aplicativo possui as seguintes telas e funcionalidades:
 
 ---
 
-# ⚙️ Tecnologias Utilizadas
+# ⚙️ Tecnologias Utilizadas #
 
 As principais tecnologias utilizadas no projeto são:
 
-* **React Native**
-* **Expo**
-* **Expo Router**
-* **Axios**
-* **Redux Toolkit**
-* **React Redux**
-* **AsyncStorage**
+* React Native
+* Expo
+* Expo Router
+* Axios
+* Redux Toolkit
+* React Redux
+* AsyncStorage
 
 ---
 
-# 📂 Estrutura do Projeto
+# 📂 Estrutura do Projeto #
 
 ```bash
 src/
  ├── components
+ ├── context
+ │    ├── CartContext.js
+ │
  ├── screens
- │    ├── ProductDetailScreen.js
  │    ├── CartScreen.js
+ │    ├── LoginScreen.js
+ │    ├── ProductDetailScreen.js
+ │    ├── ProductListScreen.js
  │
  ├── services
  │    └── api.js
@@ -80,7 +85,7 @@ src/
  │    ├── store.js
  │    └── cartSlice.js
  │
- └── context
+ └
 ```
 
 Estrutura principal do Expo:
@@ -89,13 +94,15 @@ Estrutura principal do Expo:
 app/
  ├── (tabs)
  ├── product
- ├── cart
- └── _layout.tsx
+ ├── _layout.tsx
+ └── index.ysx
+ └──modal.tsx
+ └──products.tsx
 ```
 
 ---
 
-# 🌐 API Utilizada
+# 🌐 API Utilizada #
 
 O aplicativo consome dados da seguinte API pública:
 
@@ -113,15 +120,13 @@ A API fornece informações como:
 
 # 🚀 Como Executar o Projeto
 
-### 1️⃣ Clonar o repositório
+### 1️⃣ Clonar o repositório ###
 
 ```bash
 git clone URL_DO_REPOSITORIO
 ```
 
----
-
-### 2️⃣ Instalar dependências
+### 2️⃣ Instalar dependências ###
 
 ```bash
 npm install
@@ -133,25 +138,21 @@ ou
 yarn install
 ```
 
----
-
-### 3️⃣ Executar o projeto
+### 3️⃣ Executar o projeto ###
 
 ```bash
 npx expo start
 ```
 
----
-W
-### 4️⃣ Rodar no celular
+### 4️⃣ Rodar no celular ###
 
 Instale o aplicativo:
 
-**Expo Go**
+Expo Go
 
 Depois:
 
-* escaneie o **QR Code** gerado no terminal
+* escaneie o QR Code gerado no terminal
 
 ---
 
@@ -176,19 +177,19 @@ Depois:
 
 ---
 
-# 🎯 Objetivo do Projeto
+# 🎯 Objetivo do Projeto #
 
 Este projeto tem como objetivo aplicar na prática conceitos aprendidos em aula, incluindo:
 
-* Desenvolvimento de **aplicativos móveis**
-* Consumo de **APIs REST**
-* Gerenciamento de estado com **Redux**
+* Desenvolvimento de aplicativos móveis
+* Consumo de APIs REST
+* Gerenciamento de estado com Redux
 * Navegação entre telas
 * Estruturação de projetos React Native
 
 ---
 
-# 👨‍💻 Autor
+# 👨‍💻 Autor #
 
 Nome: Lucas Ribeiro Soares
 RA: 105437
